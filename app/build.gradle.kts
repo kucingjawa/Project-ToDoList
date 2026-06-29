@@ -77,4 +77,10 @@ dependencies {
     ksp(libs.hilt.android.compiler)
     // Hilt Compose Navigation
     implementation(libs.androidx.hilt.navigation.compose)
+
+    // Retrofit
+    implementation(libs.retrofit)
+    implementation(libs.retrofit.serialization.converter)
+    implementation(libs.okhttp)
+    implementation(libs.okhttp.logging)
 }
